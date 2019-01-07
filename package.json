@@ -19,6 +19,7 @@
   "homepage": "https://github.com/PowellTravis/Portfolio#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
     "nodemon": "^1.18.9"
   }
 }
