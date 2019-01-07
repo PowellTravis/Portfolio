@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PowellTravis/Portfolio.git"
+  },
+  "author": "Travis Powell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PowellTravis/Portfolio/issues"
+  },
+  "homepage": "https://github.com/PowellTravis/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
