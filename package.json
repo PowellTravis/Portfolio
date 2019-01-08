@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start index.js App2.js",
-    "reload": "pm2 reload all"
+    "start": "node index.js",
+    "pm2-start": "pm2 reload all"
   },
   "repository": {
     "type": "git",
