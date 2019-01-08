@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+}
+.mastergrid {
+    display: grid | inline-grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "banner banner banner banner"
+    "skills skills . .";
+}
+
+.banner {
+    grid-area: banner;
+    color: blue;
+}
+
+.skills {
+    grid-area: skills;
+    color: blue;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('/images/paralax.jpg');
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
