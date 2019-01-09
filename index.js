@@ -18,7 +18,11 @@ app.get('/css/masterportfolio.css', function(req,res){
 
 app.get('/images/paralax.jpg', function(req,res){
     res.sendFile(path.join(__dirname+"/Portfolio/images/paralax.jpg"))
-})
+});
+
+app.get('/images/vines.jpg', function(req,res){
+    res.sendFile(path.join(__dirname+"/Portfolio/images/vines.jpg"))
+});
 
 
 var server = app.listen(process.env.PORT || 5000, function () {
