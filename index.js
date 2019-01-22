@@ -24,6 +24,10 @@ app.get('/images/vines.jpg', function(req,res){
     res.sendFile(path.join(__dirname+"/Portfolio/images/vines.jpg"))
 });
 
+app.get('/gitportfolio.json', function(req,res){
+    res.sendFile(path.join(__dirname+"/Portfolio/gitportfolio.json"))
+});
+
 
 var server = app.listen(process.env.PORT || 5000, function () {
     var port = server.address().port;
