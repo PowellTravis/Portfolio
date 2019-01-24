@@ -8,6 +8,18 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname+"/Portfolio/views/index.html"))
 });
 
+app.get('/github', function(req, res){
+    res.sendFile(path.join(__dirname+"/Portfolio/views/github.html"))
+});
+
+app.get('/books', function(req, res){
+    res.sendFile(path.join(__dirname+"/Portfolio/views/books.html"))
+});
+
+app.get('/contact', function(req, res){
+    res.sendFile(path.join(__dirname+"/Portfolio/views/contact.html"))
+});
+
 app.get('/css/mainportfolio.css', function(req,res){
     res.sendFile(path.join(__dirname+"/Portfolio/css/mainportfolio.css"))
 });

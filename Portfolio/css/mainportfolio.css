@@ -3,19 +3,20 @@
 }
 .nav {
     top: 0;
-    left: 0
+    left: 0;
     display: inline-block;
     margin-top: 0px;
     margin-left: 0px;
     padding-left: 0px;
     height: 40px;
     background-color: black;
-    width: 100%vw;
-    positon: absolute ;
+    opacity: 0.9;
+    width: 100%;
+    position: fixed;
 }
 
 .nav ul li {
-    background-color:white;
+    background-color:#d9d9d9;
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -24,6 +25,15 @@
     font-family: 'Raleway', sans-serif;
     margin-left: 0px;
     margin-top: 0px;
+}
+
+.nav ul .active {
+    background-color: white;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 .porfolio-grid-master {
