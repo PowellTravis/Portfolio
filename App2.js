@@ -4,7 +4,7 @@ const path = require('path');
 const PORT = process.env.PORT || 4000;
 const app = express();
 
-
+// New Profile Access
 app.get('/', function(req, res){
     res.sendFile(path.join(__dirname+"/App2/views/index.html"))
 });
