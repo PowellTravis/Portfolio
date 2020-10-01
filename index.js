@@ -4,7 +4,7 @@ const path = require('path');
 const PORT = process.env.PORT || 5000;
 const app = express();
 
-
+// File to Server Transfer Paths
 app.get('/', function(req, res){
     res.sendFile(path.join(__dirname+"/Portfolio/views/index.html"))
 });
