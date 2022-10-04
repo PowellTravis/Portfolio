@@ -22,9 +22,5 @@
     "express": "^4.16.4",
     "http-proxy": "^1.17.0",
     "http-proxy-middleware": "^0.19.1",
-    "jQuery": "^1.7.4",
-    "jquery": "^3.3.1",
-    "nodemon": "^1.18.9",
-    "pm2": "^3.2.4"
   }
 }
