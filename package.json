@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/PowellTravis/Portfolio.git"
   },
-  "author": "Travis Powell",
+  "author": "Travis Powell, Arthur",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PowellTravis/Portfolio/issues"
